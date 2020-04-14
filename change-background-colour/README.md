@@ -1,2 +1,2 @@
-# change-background-colour
-Change background colour of HTML document using Javascript
+# Change Background Colour
+Change background colour of HTML document based on a set of chosen colours.
