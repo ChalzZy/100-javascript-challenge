@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Random Quote Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row max-height align-items-center">
+                <div class="col-10 col-mid-6 mx-auto text-center">
+                    <div class="card-header">
+                        <h2 class="pb-3 text-capitalize">What message would you like to pass?</h2>
+                        <form class="p-3">
+                            <input type="text" class="form-control" id="txt-box">
+                        </form>
+                        <button type="button" class="btn btn-secondary btg-lg" onClick="getInput();">Submit</button>
+                        <h2 class="pt-3 text-capitalize">Last Message</h2>
+                        <h3 class="pt-3 text-white" id="userMessage">Hello World!</h3>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
